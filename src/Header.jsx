@@ -9,8 +9,8 @@ function Header() {
       </div>
       <nav className="header-navigation">
         <ul className="header-nav-list">
-          <li className="header-nav-item"><a href="#projects">Projects</a></li>
           <li className="header-nav-item"><a href="#about">About Me</a></li>
+          <li className="header-nav-item"><a href="#projects">Projects</a></li>
           <li className="header-nav-item"><a href="#resume">Resume</a></li>
           <li className="header-nav-item"><a href="#contact">Contact</a></li>
         </ul>
