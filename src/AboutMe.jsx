@@ -14,7 +14,7 @@ function AboutMe() {
               <div className="intro-text">
                 <h2 className="section-title">About Me</h2>
                 <p>
-                  Hello, I'm Soren Sonstein! I'm a passionate web developer with a love for creating beautiful and functional websites.
+                    I am Soren Sonstein, a skilled Frontend Web Developer based in Oceanside, California. My journey into the world of software engineering began unconventionally, forced to adapt to new means of education due to the pandemic. Known for my relentless commitment to excellence, I've developed efficient solutions that not only meet user needs but also drive business success. My recent project, Battlelab Oceanside, showcases my expertise in user-centric site development and real-world implications. With experience in e-commerce efficiency, organizational methods, and a strong track record in client-facing roles, I thrive in collaborative environments. My skills span frontend and backend development, database management, API integration, and security, while my projects demonstrate a dedication to optimization and user engagement. I've also worked in Internet sales and have a background in psychology, making me a well-rounded professional.
                 </p>
               </div>
             </div>
@@ -23,7 +23,13 @@ function AboutMe() {
           <div className="about-me-background">
             <h3>Background</h3>
             <p>
-              I hold a degree in [Your Degree] from [Your University]. Over the years, I've gained experience working on [Relevant Experiences]. These experiences have shaped my journey and instilled in me a strong work ethic.
+            My work experience is backed by a strong foundation in client-facing roles, which has honed my adaptability and collaborative skills. In this role, I've excelled in e-commerce efficiency, optimizing inventory management and contributing to increased conversion rates and customer satisfaction. My background spans a range of technical skills, including frontend and backend development, database management, API integration, and a deep knowledge of security best practices.
+
+In my projects, such as Shopbattlelab.com, I've spearheaded e-commerce site revitalization, improving the user experience and achieving a 15% increase in conversion rates. In FastFoodies Reviews, I engineered an efficient React.js front end, resulting in 30% reduced load times and a 40% increase in user engagement. With the Costume Shop project, I built custom Ruby on Rails methods for an add-to-cart functionality, enhancing user security and delivering a dynamic React.js frontend design.
+
+My work experience extends to my role as a Webmaster at Battlelab Oceanside, where I revitalized the e-commerce site by implementing cutting-edge functionalities. I deepened my expertise in e-commerce efficiencies, optimizing inventory management processes. In my previous role as an Internet Manager at Bob Baker Subaru, I achieved an exceptional 58% conversion rate and contributed to the #1 selling BDC department for Subaru USA in 2020, helping customers locate specific vehicles and increasing sales by 15%.
+
+I've also furthered my education by completing the Fullstack Software Engineering program at Flatiron School, building upon my foundation in psychology from the University of California, Riverside. My journey as a software engineer is defined by my unconventional background and relentless commitment to delivering exceptional results.
             </p>
           </div>
           {/* Skills */}
