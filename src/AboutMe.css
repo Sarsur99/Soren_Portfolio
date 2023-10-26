@@ -1,66 +1,77 @@
 /* Style for the entire "About Me" section */
 .about-me {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding-top: 80px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-top: 80px;
+
+  /* Center the section in the viewport */
+  margin: 0 auto;
+
+  /* Add a subtle border to separate it from the rest of the content */
+  border: 1px solid #ccc;
+}
+
+/* Style for the "About Me" content container */
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 800px; /* Limit the content width for better readability */
+  margin: 0 auto; /* Center the content within the section */
   
-    /* Center the section in the viewport */
-    margin: 0 auto;
-  
-    /* Add a subtle border to separate it from the rest of the content */
-    border: 1px solid #ccc;
-  }
-  
-  /* Style for the "About Me" content container */
-  .about-me-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 800px; /* Limit the content width for better readability */
-    margin: 0 auto; /* Center the content within the section */
-  }
-  
-  /* Style for the introduction section */
-  .about-me-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the top of the container */
-    margin-bottom: 20px;
-    text-align: left; /* Align text to the left */
-    border-bottom: 1px solid #ccc; /* Add a subtle line below the introduction */
-    padding-bottom: 20px; /* Space between intro and content */
-  }
-  
-  /* Style for the headshot image */
-  .headshot {
-    max-width: 150px;
-    border-radius: 50%;
-  }
-  
-  /* Style for the section title (e.g., "About Me") */
-  .section-title {
-    font-size: 24px;
-    color: #1DA1F2;
-    margin-bottom: 10px;
-  }
-  
-  /* Style for paragraphs and text */
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-  }
-  
-  /* Style for headings (e.g., "Background") */
-  h3 {
-    font-size: 18px;
-    color: #1DA1F2;
-    margin-top: 20px;
-  }
-  
+}
+
+/* Style for the introduction section */
+.about-me-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the top of the container */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Add a subtle line below the introduction */
+  padding-bottom: 20px; /* Space between intro and content */
+}
+
+.about-me-skills {
+  border-bottom: 1px solid #ccc;
+}
+/* Style for the headshot image */
+.headshot {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+/* Style for the section title (e.g., "About Me") */
+.section-title {
+  font-size: 24px;
+  color: #1DA1F2;
+  margin-bottom: 10px;
+}
+
+/* Style for paragraphs and text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Style for headings (e.g., "Skills") */
+h3 {
+  font-size: 18px;
+  color: #1DA1F2;
+  margin-top: 20px;
+}
+
+/* Style for category titles (e.g., "Skills," "Work Ethic," etc.) */
+.category-title {
+  font-size: 18px;
+  color: #1DA1F2;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc; /* Add a subtle line below each category */
+  padding-bottom: 10px; /* Space between category and content */
+}
